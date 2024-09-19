@@ -37,12 +37,11 @@
 
 .navbar .nav-link {
     color: #FFD700;
-    /* Gold color for links */
     position: relative;
     transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
 }
 
-/* Hover effect with gradient and scale */
+
 .navbar .nav-link:hover {
     color: #FFFFFF;
     transform: scale(1.1);
@@ -50,7 +49,7 @@
 
 }
 
-/* Underline effect with gradient animation */
+
 .navbar .nav-link::after {
     content: "";
     position: absolute;
@@ -59,13 +58,12 @@
     width: 100%;
     height: 3px;
     background: linear-gradient(90deg, #FFD700, #FF6347);
-    /* Gradient underline */
     transform: scaleX(0);
     transform-origin: bottom right;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-/* Show the gradient underline effect on hover */
+
 .navbar .nav-link:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
@@ -256,7 +254,7 @@
 
 
 
-/* Make the carousel images responsive */
+
 .carousel-item img {
     width: 100%;
     height: auto;
@@ -331,7 +329,7 @@
     }
 }
 
-/* Breakpoint for 993px to 1200px */
+
 @media (min-width: 993px) and (max-width: 1200px) {
     .heading {
         font-size: 4.5em;
