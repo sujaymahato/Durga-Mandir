@@ -435,5 +435,19 @@
     }
 }
 
+@media (min-width: 1201px) {
+    .heading {
+        font-size: 5em;
+    }
+
+    .headingp {
+        font-size: 2em;
+    }
+
+    .footer i {
+        font-size: 2.2em;
+    }
+}
+
 
 
