@@ -1,10 +1,10 @@
-/* navbar*/
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;900&family=Poppins:wght@200;300;400;500;600;700&family=Vollkorn:wght@400;500;600;700;800;900&display=swap');
 
 
 
-/* General Styles */
+
 body {
     font-family: 'Nunito', sans-serif;
     margin: 0;
@@ -42,7 +42,7 @@ body {
     transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
 }
 
-/* Hover effect with gradient and scale */
+
 .navbar .nav-link:hover {
     color: #FFFFFF;
     transform: scale(1.1);
@@ -50,7 +50,7 @@ body {
    
 }
 
-/* Underline effect with gradient animation */
+
 .navbar .nav-link::after {
     content: "";
     position: absolute;
@@ -59,13 +59,12 @@ body {
     width: 100%;
     height: 3px;
     background: linear-gradient(90deg, #FFD700, #FF6347);
-    /* Gradient underline */
     transform: scaleX(0);
     transform-origin: bottom right;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-/* Show the gradient underline effect on hover */
+
 .navbar .nav-link:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
