@@ -139,7 +139,35 @@
 
 
 /*---------------------------------------- image section Styles-------------------------*/
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
+
+.gallery .heading1 {
+    color: white;
+    width: 50%;
+    padding-bottom: 50px;
+    padding-top: -50px;
+    text-align: center;
+
+}
+
+.gallery .heading1 h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    border-bottom: 3px solid black;
+}
+
+.gallery h2 span {
+    color: yellow;
+    font-family: 'Nunito', sans-serif;
+
+}
 
 
 .image-gallery-container {
