@@ -289,7 +289,7 @@ header .current-date {
 
 @media (max-width: 480px) {
   .container-fluid.banner {
-    height: 800px;
+    height: 650px;
     position: relative;
     text-align: center;
     color: #fff;
@@ -320,7 +320,7 @@ header .current-date {
 
 @media (min-width: 481px) and (max-width: 768px) {
   .container-fluid.banner {
-    height: 800px;
+    height: 650px;
     position: relative;
     text-align: center;
     color: #fff;
