@@ -77,7 +77,7 @@ body {
 
 
 .container-fluid.banner {
-    height: 800px;
+    height: 650px;
     position: relative;
     text-align: center;
     color: #fff;
@@ -91,7 +91,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    height: 800px;
+    height: 650px;
     width: 100%;
     background-size: cover;
     background-position: center;
